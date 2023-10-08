@@ -4,7 +4,7 @@ una matríz. Realice los dos ejercicios que se encuentran al final de esta guía
 Approximating Eigenvalues  -  Jupyter Guide to Linear Algebra.
 
 
-\textbf{Problema 2}
+## Problema 2
 1. Implemente un algoritmo para calcular la factorización QR de una
 matríz basando en el proceso de ortogonalización de Grahm-Schmidt.
 El algoritmo debe recibir una matriz A de tamaño m × n con m ≥ n
@@ -17,14 +17,14 @@ dependientes?
 3. Averigüe bajo cuales condiciones la factorización QR es única.
 
 
-\textbf{Problema 3}
+## Problema 3
 1. Realice el siguiente tutorial sobre Topic modeling with NMF and SVD.
 2. Realice entre 3 y 8 consultas sobre temas distintos en el portal CREA
 | Real Academia Española, construya una matriz de frecuencia de términos a partir de esas consultas.
 3. Realice un análisis de tópicos usando una factorización no negativa
 (NMF) de la matriz construida en el punto anterior.
 
-\textbf{Problema 4}
+## Problema 4
 Obtenga la descomposición en valores singulares de una foto suya en escala
 de grises. Representela de nuevo utilizando sólo el valor singular mayor,
 luego los dos mayores, luego los tres mayores y así hasta agotarlos. ¿Cuál
