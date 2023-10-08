@@ -1,3 +1,9 @@
+# Autores:
+
+* Sebastian Ramirez Escobar
+* Sebastian Carvalho Salazar
+* Johan Stiven Paez Bermudez
+
 # Taller 3 - Factorización de matrices
 NOTA: Lea sobre el método de potencias para aproximar el valor propio mayor de
 una matríz. Realice los dos ejercicios que se encuentran al final de esta guía:
@@ -20,7 +26,7 @@ dependientes?
 ## Problema 3
 1. Realice el siguiente tutorial sobre Topic modeling with NMF and SVD.
 2. Realice entre 3 y 8 consultas sobre temas distintos en el portal CREA
-| Real Academia Española, construya una matriz de frecuencia de términos a partir de esas consultas.
+| Real Academia Española, construya una matriz de frecuencia de términos a partir de esas consultas.
 3. Realice un análisis de tópicos usando una factorización no negativa
 (NMF) de la matriz construida en el punto anterior.
 
