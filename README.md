@@ -9,6 +9,10 @@ NOTA: Lea sobre el método de potencias para aproximar el valor propio mayor de
 una matríz. Realice los dos ejercicios que se encuentran al final de esta guía:
 Approximating Eigenvalues  -  Jupyter Guide to Linear Algebra.
 
+## TABLA CONTENIDO
+Descriptcion Problema [https://github.com/stijopa/Taller_3/edit/main/README.md#problema-2]
+
+Solucion
 
 ## Problema 2
 1. Implemente un algoritmo para calcular la factorización QR de una
