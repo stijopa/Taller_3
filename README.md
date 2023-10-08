@@ -16,7 +16,7 @@ matríz basando en el proceso de ortogonalización de Grahm-Schmidt.
 El algoritmo debe recibir una matriz A de tamaño m × n con m ≥ n
 y retornar una matriz Q de tamaño m × n y una matriz triangular
 superior R de tamaño n × n, tales que QtQ = In y A = QR. Compare
-los resultados de su algoritmo con los de la función scipy.linalg.qr 
+los resultados de su algoritmo con los de la función scipy.linalg.qr -
 SciPy Manual.
 2. ¿Que pasa con la factorización QR cuando las columnas son linealmente
 dependientes?
