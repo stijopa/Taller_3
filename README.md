@@ -13,7 +13,7 @@ Descriptcion Problema [https://github.com/stijopa/Taller_3/edit/main/README.md#p
 ## PROBLEMA 1
 Lea sobre el método de potencias para aproximar el valor propio mayor de
 una matríz. Realice los dos ejercicios que se encuentran al final de esta guía:
-Approximating Eigenvalues  -  Jupyter Guide to Linear Algebra.
+Approximating Eigenvalues  -  Jupyter Guide to Linear Algebra. (https://bvanderlei.github.io/jupyter-guide-to-linear-algebra/Approximating_Eigenvalues.html)
 
 ### Problema 1: Sea la matriz A del ejemplo del método de potencia inversa.
 
