@@ -297,10 +297,10 @@ dependientes?
 
 
 ## PROBLEMA 3
-1. Realice el siguiente tutorial sobre Topic modeling with NMF and SVD.
-2. Realice entre 3 y 8 consultas sobre temas distintos en el portal CREA
+1. Realice el siguiente tutorial sobre Topic modeling with NMF and SVD. https://nbviewer.org/github/fastai/numerical-linear-algebra/blob/master/nbs/2.%20Topic%20Modeling%20with%20NMF%20and%20SVD.ipynb
+3. Realice entre 3 y 8 consultas sobre temas distintos en el portal CREA
 | Real Academia Española, construya una matriz de frecuencia de términos a partir de esas consultas.
-3. Realice un análisis de tópicos usando una factorización no negativa
+4. Realice un análisis de tópicos usando una factorización no negativa
 (NMF) de la matriz construida en el punto anterior.
 
 ## PROBLEMA 4
