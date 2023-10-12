@@ -7,7 +7,10 @@
 # Taller 3 - Factorización de matrices
 
 ## TABLA CONTENIDO
-1.[Problema 4](PROBLEMA-4)
+1. [PROBLEMA 1](https://github.com/stijopa/Taller_3#Problema-1)
+2. [PROBLEMA 2](https://github.com/stijopa/Taller_3#Problema-2)
+3. [PROBLEMA 3](https://github.com/stijopa/Taller_3#Problema-3)
+4. [PROBLEMA 4](https://github.com/stijopa/Taller_3#Problema-4)
 
 
 ## PROBLEMA 1
@@ -319,7 +322,7 @@ dependientes?
 4. Realice un análisis de tópicos usando una factorización no negativa
 (NMF) de la matriz construida en el punto anterior.
 
-### Solucion 4: 
+### Solucion 3: 
 Se adjunta los archvivos. En codigo notebook "TopicAnalisysWithNMF.ipynb y archivos insumos que se encuentran en la carpeta Data.
 
 ## PROBLEMA 4
