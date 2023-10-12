@@ -17,10 +17,12 @@ Approximating Eigenvalues  -  Jupyter Guide to Linear Algebra. (https://bvanderl
 
 ### Problema 1: Sea la matriz A del ejemplo del método de potencia inversa.
 
-\begin{pmatrix}
-  a & b\\ 
-  c & d
-\end{pmatrix}
+$$A = \begin{bmatrix}
+ 9 & -1 & -3 \\
+ 0 &  6 &  0 \\
+-6 &  3 &  6 \\
+\end{bmatrix}$$
+
 
 ### Problema 1.a: Utilice el método de la potencia para aproximar el valor propio más grande λ1. Verifique que el valor exacto de λ1 es 12.
 
