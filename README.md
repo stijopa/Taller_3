@@ -7,7 +7,7 @@
 # Taller 3 - Factorización de matrices
 
 ## TABLA CONTENIDO
-Descriptcion Problema [https://github.com/stijopa/Taller_3/edit/main/README.md#problema-2]
+Descriptcion Problema
 
 
 ## PROBLEMA 1
