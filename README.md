@@ -303,7 +303,8 @@ dependientes?
 4. Realice un análisis de tópicos usando una factorización no negativa
 (NMF) de la matriz construida en el punto anterior.
 
-### Solucion 4: Se adjunta los archvivos. En codigo notebook y archivos insumos.
+### Solucion 4: 
+Se adjunta los archvivos. En codigo notebook "TopicAnalisysWithNMF.ipynb y archivos insumos que se encuentran en la carpeta Data.
 
 ## PROBLEMA 4
 Obtenga la descomposición en valores singulares de una foto suya en escala
