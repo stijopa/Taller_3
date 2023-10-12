@@ -124,6 +124,13 @@ print("Valor propio más pequeño aproximado con desplazamiento (μ=10):", eigen
 
 ### Problema 1.c: Aplique el método de potencia inversa con un desplazamiento de μ=7.5 y el vector inicial que se muestra a continuación. Explique por qué la secuencia de vectores se aproxima al vector propio correspondiente a λ1
 
+$$X(0)= \begin{bmatrix}
+ 1 \\
+ 0 \\
+ 0 \\
+\end{bmatrix}$$
+
+
 ## Solucion 1.c
 ```python
 import numpy as np
@@ -175,6 +182,13 @@ print("\nVector propio correspondiente a λ1 aproximado (normalizado):", vector_
 
 ```
 ## Problema 2: Sea ​​la matriz B.
+
+$$B = \begin{bmatrix}
+ -2 & -18 &   6 \\
+-11 &  3  &  11 \\
+-27 &  15 &  31 \\
+\end{bmatrix}$$
+
 
 
 ### Problema 2.a: Aplicar el método de potencia y el método de potencia inversa con desplazamientos para aproximar todos los valores propios de la matriz B. (Tenga en cuenta que uno de los valores propios de esta matriz es negativo).
