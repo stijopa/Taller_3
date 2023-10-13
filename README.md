@@ -127,7 +127,7 @@ print("Valor propio más pequeño aproximado con desplazamiento (μ=10):", eigen
 
 ### Problema 1.c: Aplique el método de potencia inversa con un desplazamiento de μ=7.5 y el vector inicial que se muestra a continuación. Explique por qué la secuencia de vectores se aproxima al vector propio correspondiente a λ1
 
-$$X(0)= \begin{bmatrix}
+$$X^(0) = \begin{bmatrix}
  1 \\
  0 \\
  0 \\
