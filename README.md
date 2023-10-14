@@ -121,8 +121,6 @@ eigenvalue_estimate = 1 / np.dot(y, x) + mu
 
 # Imprime el resultado
 print("Valor propio más pequeño aproximado con desplazamiento (μ=10):", eigenvalue_estimate)
-
-
 ```
 
 ### Problema 1.c: Aplique el método de potencia inversa con un desplazamiento de μ=7.5 y el vector inicial que se muestra a continuación. Explique por qué la secuencia de vectores se aproxima al vector propio correspondiente a λ1
@@ -296,10 +294,6 @@ eigenvalues, eigenvectors = eig(B)
 print("Valores propios calculados con eig:")
 for i, eigenvalue in enumerate(eigenvalues):
     print(f"Valor propio {i + 1}: {eigenvalue.real}")
-
-```
-
-```python
 ```
 
 ## PROBLEMA 2
@@ -362,7 +356,6 @@ error_message
 Si \( A \) tiene columnas linealmente independientes, entonces \( Q \) es única y \( R \) es única hasta el signo de sus entradas diagonales. Esto significa que si una factorización QR de \( A \) es \( A = QR \), cualquier matriz \( Q' \) con columnas que sean negaciones de las columnas de \( Q \) y una matriz \( R' \) donde las entradas correspondientes en la diagonal de \( R' \) sean negaciones de las de \( R \) también será una factorización QR válida de \( A \).
 
 
-
 ## PROBLEMA 3
 1. Realice el siguiente tutorial sobre Topic modeling with NMF and SVD. https://nbviewer.org/github/fastai/numerical-linear-algebra/blob/master/nbs/2.%20Topic%20Modeling%20with%20NMF%20and%20SVD.ipynb
 3. Realice entre 3 y 8 consultas sobre temas distintos en el portal CREA
@@ -413,6 +406,5 @@ for i in range(9):
     plt.title(f'{num_valores_singulares[i]} SV')
 
 plt.show()
-
 ```
 
