@@ -310,9 +310,57 @@ y retornar una matriz Q de tamaño m × n y una matriz triangular
 superior R de tamaño n × n, tales que QtQ = In y A = QR. Compare
 los resultados de su algoritmo con los de la función scipy.linalg.qr -
 SciPy Manual.
+
+## Solucion 2.1 
+
+```python
+def gram_schmidt_qr(A):
+    m, n = A.shape
+    Q = np.zeros((m, n), dtype=float)
+    R = np.zeros((n, n), dtype=float)
+    
+    for j in range(n):
+        v = A[:, j].astype(float)
+        for i in range(j):
+            R[i, j] = np.dot(Q[:, i], A[:, j])
+            v -= R[i, j] * Q[:, i]
+        R[j, j] = np.linalg.norm(v)
+        Q[:, j] = v / R[j, j]
+    
+    return Q, R
+
+# Comparación con scipy.linalg.qr
+A_test = np.array([[1, 2], [3, 4], [5, 6]])
+Q_gs, R_gs = gram_schmidt_qr(A_test)
+Q_sp, R_sp = scipy_qr(A_test, mode='economic')
+(Q_gs, R_gs), (Q_sp, R_sp)
+```
+
 2. ¿Que pasa con la factorización QR cuando las columnas son linealmente
 dependientes?
+
+## Solucion 2.2
+Probemos con una matriz cuyas columnas son linealmente dependientes:
+```python
+# Matriz con columnas linealmente dependientes
+A_dep = np.array([[1, 2, 3], [2, 4, 6], [3, 6, 9]])
+
+try:
+    Q_dep, R_dep = gram_schmidt_qr(A_dep)
+except Exception as e:
+    error_message = str(e)
+
+error_message
+```
+
 3. Averigüe bajo cuales condiciones la factorización QR es única.
+## Solucion 2.3
+
+1. La matriz \( R \) es estrictamente triangular superior, es decir, todos sus elementos diagonales son positivos.
+2. La matriz \( A \) tiene columnas linealmente independientes.
+
+Si \( A \) tiene columnas linealmente independientes, entonces \( Q \) es única y \( R \) es única hasta el signo de sus entradas diagonales. Esto significa que si una factorización QR de \( A \) es \( A = QR \), cualquier matriz \( Q' \) con columnas que sean negaciones de las columnas de \( Q \) y una matriz \( R' \) donde las entradas correspondientes en la diagonal de \( R' \) sean negaciones de las de \( R \) también será una factorización QR válida de \( A \).
+
 
 
 ## PROBLEMA 3
